@@ -8,23 +8,23 @@
 # 1. Структура проекта
 
 gabeitch/
-│
-├── main.py
-├── game.py
-├── player.py
-├── enemy.py
-├── level_loader.py
-├── constants.py
-│
-├── assets/
-│   ├── sprites/
-│   ├── tilesets/
-│   └── sounds/
-│
-└── levels/
-    ├── level1.json
-    ├── level2.json
-    └── ...
+  main.py                 — точка входа в игру
+  game.py                 — основной игровой цикл
+  player.py               — класс игрока
+  enemy.py                — класс врагов
+  level_loader.py         — загрузка уровней из JSON
+  constants.py            — глобальные константы проекта
+
+  assets/
+    sprites/              — спрайты персонажей и объектов
+    tilesets/             — тайлсеты уровней
+    sounds/               — звуковые эффекты
+
+  levels/
+    level1.json
+    level2.json
+    ...
+
 
 Код
 
@@ -198,5 +198,6 @@ GRAVITY = 1.0
 получение урона;
 
 активацию объектов.
+
 
 
